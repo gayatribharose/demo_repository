@@ -1,0 +1,120 @@
+body{
+font-family: Arial;
+margin:0;
+background:#f5f7fa;
+}
+
+/* HERO */
+
+.hero{
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:70px;
+background:white;
+}
+
+.hero-text{
+max-width:500px;
+}
+
+.hero-text h1{
+color:#ff5733;
+font-size:40px;
+}
+
+.hero-text p{
+color:#555;
+}
+
+.buttons{
+margin-top:20px;
+}
+
+.primary{
+background:#ff5733;
+color:white;
+border:none;
+padding:12px 20px;
+border-radius:6px;
+margin-right:10px;
+cursor:pointer;
+}
+
+.secondary{
+background:#eaeaea;
+border:none;
+padding:12px 20px;
+border-radius:6px;
+cursor:pointer;
+}
+
+.hero-image img{
+width:650px;
+/* height: auto; */
+}
+
+/* MESSAGE */
+
+.message{
+text-align:center;
+padding:60px;
+background:#fff3e8;
+}
+
+.message-box{
+background:white;
+padding:25px;
+border-radius:12px;
+max-width:500px;
+margin:auto;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* MEMORIES */
+
+.memories{
+text-align:center;
+padding:60px;
+}
+
+.cards{
+display:flex;
+justify-content:center;
+gap:20px;
+margin-top:30px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:10px;
+width:200px;
+box-shadow:0 3px 8px rgba(0,0,0,0.1);
+}
+
+.surprise-btn{
+margin-top:30px;
+background:#ffa500;
+color:white;
+border:none;
+padding:15px 25px;
+border-radius:8px;
+font-size:16px;
+cursor:pointer;
+}
+
+#surprise-message{
+display:none;
+margin-top:20px;
+font-size:18px;
+color:#333;
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+padding:20px;
+background:#eee;
+}
